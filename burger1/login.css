@@ -1,0 +1,213 @@
+* {box-sizing: border-box}
+
+/* Поля ввода полной ширины */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #a7a7a7;
+
+  border-radius: 20px;
+
+  outline: none;
+}
+
+hr {
+  
+  margin-bottom: 25px;
+  margin-top: 25px;
+
+}
+
+/* Установите стиль для всех кнопок */
+
+button {
+    font-weight: 500;
+    border-radius: 20px;  
+  background-color: #81ee84;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Дополнительные стили для кнопки "Отмена" */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #e7574d;
+  font-weight: 500;
+}
+
+/* Поплавок отмена и кнопки регистрации и добавить равную ширину */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Добавить отступы к элементам контейнера */
+.container {
+  padding: 16px;
+}
+
+/* Очистить поплавки */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Измените стили для кнопки отмены и кнопки регистрации на дополнительных маленьких экранах */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+b{
+    font-family: "Roboto", sans-serif;
+}
+
+/* ADD */
+
+.formareg{
+    padding-top: 60px;
+    padding-bottom: 10px
+}
+
+
+.form{
+    padding: 10px 0;
+}
+ b{
+    font-weight: 500;
+ }
+
+
+p{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+/* MAIN__BODY */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #1C1C1C;
+    color: #fff;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+p + p {
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.header {
+    padding: 25px, 0px;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+ /* задает большие буквы  */
+    width: 165px;
+    height: 49px;
+    background: #f6762c;
+    border-radius: 5px;
+    transform: opacity 0.3s;
+}
+
+.btn--small {
+    width: 141px;
+    height: 39px;
+    font-size: 12px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.header__list {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.header__nav a {
+    font-size: 14px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.header__nav a.active {
+    opacity: 1;
+}
+
+.header__nav a:hover {
+    opacity: 0.9;
+}
+
+.header__logo {
+}
+
+
+
