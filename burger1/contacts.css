@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__nav a {
-    font-size: 14px;
+    font-size: 16px;
     opacity: 0.7;
     transition: opacity 0.3s;
 }
@@ -104,29 +104,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .welcome {
     box-sizing: border-box;
+
     min-width: 100vh;
     margin-top: -100px;
-    /* padding: 190px 0; */
+
     padding-top: 190px;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 35px;
+
     background-color: #1C1C1C;
-    /* background-image: url('/images/boutus\ \(1\)\ 1.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .welcome__text {
-    /* width: 1000px; */
-    /* width: 550px; */
-    /* align-items: center;
-    justify-content: center; */
-    /* padding-bottom: 100px; */
     padding-left: 0px;
     padding-top: 50px;
-    
 }
 
 
@@ -138,7 +133,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .welcome__title {
     font-size: 58px;
-
 }
 
 .welcome__desc {
@@ -197,13 +191,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.flex{
-    /* margin-left: auto;
-    margin-right: auto;
-    width: 500px; */
 
 
-}
 
 /* MYYYYY */
 
@@ -285,7 +274,8 @@ h2 {
 .mapptext{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
+    padding-top: 40px;
 }
 
 
